@@ -1,0 +1,9 @@
+
+<%= current_user.id %>
+<% @notifications.each do |notification| %>
+<table>
+ <%= notification.user.username%>が<%= notification.book.title %>を借りたいと言っています。
+ <%= notification.book.user.id %>
+ </table>
+
+<% end %>
