@@ -1,0 +1,5 @@
+ap-northeast-1
+ heroku config:set S3_ACCESS_KEY="AKIAILG2OJNKNJ6SQQGA"
+ heroku config:set S3_SECRET_KEY="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"
+ heroku config:set S3_BUCKET="railskitao1"
+ heroku config:set S3_REGION="ap-northeast-1"
